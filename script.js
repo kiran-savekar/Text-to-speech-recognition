@@ -1,5 +1,5 @@
 function getRandomNumber() {
-  return Math.floor(Math.random() * 100) + 1;
+  return Math.floor(Math.random() * 1000000) + 1;
 }
 
 const msgEl = document.getElementById('msg');
