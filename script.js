@@ -43,7 +43,7 @@ function checkNumber(msg) {
   }
 
   // Check in range
-  if (num > 1000000 ) {
+  if (num > 10000000 || num < 1 ) {
     msgEl.innerHTML += '<div>Number must be between 1 and 99,999</div>';
     return;
   }
