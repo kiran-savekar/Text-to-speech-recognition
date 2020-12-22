@@ -1,6 +1,6 @@
 # javascript-mini-project
 
-A text to speech app for non-verbal people. Pre-made buttons and custom text speech. This project uses the Web Speech API.
+# Project Title :- Speech to text conversion and guess whether the number is prime number or not. 
 
 # Project Specifications
 
