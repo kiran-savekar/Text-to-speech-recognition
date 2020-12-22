@@ -43,10 +43,10 @@ function checkNumber(msg) {
   }
 
   // Check in range
-  //if (num > 100000 || num < 1) {
-    //msgEl.innerHTML += '<div>Number must be between 1 and 99,999</div>';
-    //return;
-  //}
+  if (num < 1000000 || num > 1) {
+    msgEl.innerHTML += '<div>Number must be between 1 and 99,999</div>';
+    return;
+  }
   // check if number is equal to 1
   if (num === 1) {
       msgEl.innerHTML += '<div>1 is neither prime nor composite number.</div>';
